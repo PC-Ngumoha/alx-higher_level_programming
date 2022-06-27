@@ -19,3 +19,5 @@ This is a python script which, on execution, prints out to the screen the messag
 ```
 98 Battery street
 ```
+### 4-print_float.py
+This is a python script which, on execution, prints out a floating point number with a 2-digit precision.
