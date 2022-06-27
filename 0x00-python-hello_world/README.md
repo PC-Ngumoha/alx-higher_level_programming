@@ -24,3 +24,6 @@ This is a python script which, on execution, prints out a floating point number 
 
 ### 5-print_string.py
 This is a python script which repeatedly prints out the contents of a string three times and then prints out the first nine characters in the string.
+
+### 6-concat.py
+This is a python script which prints to the screen a message formed by concatenating  two strings together.
