@@ -36,3 +36,6 @@ prints one after the other the first three characters of a string, the last two 
 ### 9-easter_egg.py
 Prints a copy of the `Zen Of Python` to the screen followed by a newline
 
+### 100-write.py
+Uses the `write` method to print out a string to the standard error stream `stderr`. exits with a status of `1`
+
