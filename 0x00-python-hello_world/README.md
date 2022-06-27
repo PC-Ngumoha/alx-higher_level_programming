@@ -33,3 +33,6 @@ prints one after the other the first three characters of a string, the last two 
 
 ### 8-concat_edges.py
 
+### 9-easter_egg.py
+Prints a copy of the `Zen Of Python` to the screen followed by a newline
+
