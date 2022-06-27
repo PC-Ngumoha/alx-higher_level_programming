@@ -12,3 +12,10 @@ This is a python script which, on execution, prints out to the screen the messag
 ```
 "Programming is like building a multilingual puzzle
 ```
+
+### 3-print_number.py
+This is a python script which, on execution, prints out to the screen the message:
+
+```
+98 Battery street
+```
