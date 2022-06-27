@@ -21,3 +21,6 @@ This is a python script which, on execution, prints out to the screen the messag
 ```
 ### 4-print_float.py
 This is a python script which, on execution, prints out a floating point number with a 2-digit precision.
+
+### 5-print_string.py
+This is a python script which repeatedly prints out the contents of a string three times and then prints out the first nine characters in the string.
