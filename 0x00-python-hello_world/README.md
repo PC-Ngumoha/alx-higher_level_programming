@@ -31,3 +31,5 @@ This is a python script which prints to the screen a message formed by concatena
 ### 7-edges.py
 prints one after the other the first three characters of a string, the last two characters of that string, and the every other character in the string except the first and last characters
 
+### 8-concat_edges.py
+
