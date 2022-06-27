@@ -1,4 +1,4 @@
-#ALX HIGHER LEVEL PROGRAMMING
+# ALX HIGHER LEVEL PROGRAMMING
 
 This repository contains the projects from the higher-level programming segment or Sprint 2 of the African Leadership Accelerator or A.L.X 12-month Software Engineering training program.
 
