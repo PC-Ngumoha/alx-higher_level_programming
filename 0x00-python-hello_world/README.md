@@ -42,3 +42,6 @@ Uses the `write` method to print out a string to the standard error stream `stde
 ### 101-compile
 A bash script which, on execution, compiles the python file defined in the global shell variable `PYFILE` into python bytecode.
 
+### 102-magic_calculation
+A function that performs the same magic calculation performed by the bytecode specified in the problem specifications.
+
