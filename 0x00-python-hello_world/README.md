@@ -36,6 +36,17 @@ prints one after the other the first three characters of a string, the last two 
 ### 9-easter_egg.py
 Prints a copy of the `Zen Of Python` to the screen followed by a newline
 
+### lists.h, 10-linked_list.c, 10-check_cyle.c & 10-main.c
+C program to evaluate a linked-list and determine if the list contains a cycle or not. If there is a cycle, it prints the message:
+
+```
+Linked list has a cycle
+```
+Otherwise, it prints:
+```
+Linked list has no cycle
+```
+
 ### 100-write.py
 Uses the `write` method to print out a string to the standard error stream `stderr`. exits with a status of `1`
 
@@ -44,4 +55,6 @@ A bash script which, on execution, compiles the python file defined in the globa
 
 ### 102-magic_calculation
 A function that performs the same magic calculation performed by the bytecode specified in the problem specifications.
+
+
 
