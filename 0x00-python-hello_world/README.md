@@ -39,3 +39,6 @@ Prints a copy of the `Zen Of Python` to the screen followed by a newline
 ### 100-write.py
 Uses the `write` method to print out a string to the standard error stream `stderr`. exits with a status of `1`
 
+### 101-compile
+A bash script which, on execution, compiles the python file defined in the global shell variable `PYFILE` into python bytecode.
+
