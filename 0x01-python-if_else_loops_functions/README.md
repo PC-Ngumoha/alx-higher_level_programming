@@ -41,4 +41,7 @@ Contains the function `fizzbuzz` which reproduces the classic `FizzBuzz` algorit
 
 ### 100-print_tebahpla.py
 prints the alphabet in reverse, alternating between lowercase and uppercase letters.
- 	
+
+### 101-remove_char_at.py
+removes a character at a specific index in a string. 	
+
