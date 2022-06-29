@@ -38,4 +38,7 @@ Contains the function `pow` which takes `a` and `b` and returns `a ^ b` as it's 
 
 ### 12-fizzbuzz.py
 Contains the function `fizzbuzz` which reproduces the classic `FizzBuzz` algorithm for a sample of numbers from `1` to `100`.
+
+### 100-print_tebahpla.py
+prints the alphabet in reverse, alternating between lowercase and uppercase letters.
  	
