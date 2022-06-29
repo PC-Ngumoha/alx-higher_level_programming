@@ -36,4 +36,6 @@ Contains the function `add` which takes `a` and `b` and returns `a + b` as it's 
 ### 11-pow.py
 Contains the function `pow` which takes `a` and `b` and returns `a ^ b` as it's result.
 
-	
+### 12-fizzbuzz.py
+Contains the function `fizzbuzz` which reproduces the classic `FizzBuzz` algorithm for a sample of numbers from `1` to `100`.
+ 	
