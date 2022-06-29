@@ -27,3 +27,5 @@ contains the function `islower` which takes a character as it's argument and ret
 ### 8-uppercase.py
 contains the function `uppercase` which takes a lowercase string as it's argument and prints out the string in uppercase.
 
+### 9-print_last_digit.py
+contains function `print_last_digit` which takes in a decimal number and prints the last digit of that number to the screen.
