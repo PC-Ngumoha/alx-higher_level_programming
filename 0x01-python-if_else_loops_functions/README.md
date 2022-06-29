@@ -23,3 +23,7 @@ This script prints a comma seperated list of all unique combinations of two numb
 
 ### 7-islower.py
 contains the function `islower` which takes a character as it's argument and returns `True` if it's a lowercase character. Otherwise, it returns `False`.
+
+### 8-uppercase.py
+contains the function `uppercase` which takes a lowercase string as it's argument and prints out the string in uppercase.
+
