@@ -7,4 +7,7 @@ This program generates a random number `number` and then determines if it is `po
 This script generates a random number, extracts the last digit of that number and then evaluates if the last digit is `greater than 5`, `0` or `less than 6 and not 0`.
 
 ### 2-print_alphabet.py
-This script prints all the letters of the ASCII alphabet in lowercase letters.
+This script prints all the letters of the ASCII alphabet in lowercase.
+
+### 3-print_alphabt.py
+This script prints all the letters of the ASCII alphabet except the letters `e` and `q` in lowercase.
