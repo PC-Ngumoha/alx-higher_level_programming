@@ -15,5 +15,8 @@ This script prints all the letters of the ASCII alphabet except the letters `e` 
 ### 4-print_hexa.py
 This script prints all the numbers from `0` to `98` in decimal and hexadecimal format.
 
-### 5-print_hexa.py
+### 5-print_comb2.py
 This script prints a comma seperated list of two digit decimal numbers from `0` to `99`.
+
+### 6-print_comb3.py
+This script prints a comma seperated list of all unique combinations of two numbers.
