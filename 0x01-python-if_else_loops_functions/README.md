@@ -20,3 +20,6 @@ This script prints a comma seperated list of two digit decimal numbers from `0` 
 
 ### 6-print_comb3.py
 This script prints a comma seperated list of all unique combinations of two numbers.
+
+### 7-islower.py
+contains the function `islower` which takes a character as it's argument and returns `True` if it's a lowercase character. Otherwise, it returns `False`.
