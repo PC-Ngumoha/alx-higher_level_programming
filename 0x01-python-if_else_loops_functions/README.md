@@ -28,8 +28,12 @@ contains the function `islower` which takes a character as it's argument and ret
 contains the function `uppercase` which takes a lowercase string as it's argument and prints out the string in uppercase.
 
 ### 9-print_last_digit.py
-contains function `print_last_digit` which takes in a decimal number and prints the last digit of that number to the screen.
+Contains function `print_last_digit` which takes in a decimal number and prints the last digit of that number to the screen.
 
 ### 10-add.py
-contains the function `add` which takes `a` and `b` and returns `a + b` as it's result.
+Contains the function `add` which takes `a` and `b` and returns `a + b` as it's result.
 
+### 11-pow.py
+Contains the function `pow` which takes `a` and `b` and returns `a ^ b` as it's result.
+
+	
