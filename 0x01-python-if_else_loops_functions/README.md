@@ -11,3 +11,6 @@ This script prints all the letters of the ASCII alphabet in lowercase.
 
 ### 3-print_alphabt.py
 This script prints all the letters of the ASCII alphabet except the letters `e` and `q` in lowercase.
+
+### 4-print_hexa.py
+This script prints all the numbers from `0` to `98` in decimal and hexadecimal format.
