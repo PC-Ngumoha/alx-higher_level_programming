@@ -29,3 +29,7 @@ contains the function `uppercase` which takes a lowercase string as it's argumen
 
 ### 9-print_last_digit.py
 contains function `print_last_digit` which takes in a decimal number and prints the last digit of that number to the screen.
+
+### 10-add.py
+contains the function `add` which takes `a` and `b` and returns `a + b` as it's result.
+
