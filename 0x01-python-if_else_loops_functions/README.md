@@ -40,8 +40,11 @@ Contains the function `pow` which takes `a` and `b` and returns `a ^ b` as it's 
 Contains the function `fizzbuzz` which reproduces the classic `FizzBuzz` algorithm for a sample of numbers from `1` to `100`.
 
 ### 100-print_tebahpla.py
-prints the alphabet in reverse, alternating between lowercase and uppercase letters.
+Prints the alphabet in reverse, alternating between lowercase and uppercase letters.
 
 ### 101-remove_char_at.py
-removes a character at a specific index in a string. 	
+Removes a character at a specific index in a string.
+
+### 102-magic_calculation.py
+A function that performs a calculation similar to (my interpretation of) the calculation performed by the bytecode illustrated.  	
 
