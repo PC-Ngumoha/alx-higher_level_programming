@@ -9,4 +9,3 @@ elif nargs > 1:
     print("{:d} {:s}:".format(nargs - 1, message))
     for i in range(1, nargs):
         print("{:d}: {:s}".format(i, argv[i]))
-
