@@ -13,4 +13,7 @@ prints out a numbered list of all the command line arguments passed into the pro
 sums the values of all the command line arguments passed into the program and then prints out the result to the screen.
 
 ### 4-hidden_discovery.py
-prints out the names of attributes in the `hidden_4` module whose names do not start with a `__`.   
+prints out the names of attributes in the `hidden_4` module whose names do not start with a `__`.
+
+### 5-variable_load.py
+prints out the value of the variable `a` which was imported from the `variable_load_5` module to the screen.   
