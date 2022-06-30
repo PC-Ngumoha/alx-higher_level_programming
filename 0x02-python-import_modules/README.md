@@ -7,4 +7,9 @@ imports the `add` function from the `add_0` module and uses it to print out the 
 imports the `add`, `sub`, `mul` and `div` functions from the `calculator_1` module and uses them to print out the results of a few simple calculations.
 
 ### 2-args.py
-prints out a numbered list of all the command line arguments passed into the program.  
+prints out a numbered list of all the command line arguments passed into the program.
+
+### 3-infinite_add.py
+sums the values of all the command line arguments passed into the program and then prints out the result to the screen.
+
+  
