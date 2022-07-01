@@ -16,4 +16,10 @@ sums the values of all the command line arguments passed into the program and th
 prints out the names of attributes in the `hidden_4` module whose names do not start with a `__`.
 
 ### 5-variable_load.py
-prints out the value of the variable `a` which was imported from the `variable_load_5` module to the screen.   
+prints out the value of the variable `a` which was imported from the `variable_load_5` module to the screen.
+
+### 100-my_calculator.py
+takes in a command line arguments and uses these arguments to perform a specified basic operation. The command line arguments are expected to be supplied in the following format:
+```
+./100-my_calculator.py <a> <operator> <b>
+``` 
