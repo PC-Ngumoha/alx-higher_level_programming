@@ -23,3 +23,5 @@ takes in a command line arguments and uses these arguments to perform a specifie
 ```
 ./100-my_calculator.py <a> <operator> <b>
 ``` 
+
+### 101-easy_print.py
