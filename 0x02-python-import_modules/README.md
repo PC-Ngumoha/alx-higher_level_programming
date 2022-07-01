@@ -25,3 +25,8 @@ takes in a command line arguments and uses these arguments to perform a specifie
 ``` 
 
 ### 101-easy_print.py
+
+### 102-magic_calculation.py
+Contains a function which performs a calculation based on my interpretation of the bytecode provided in the project specifications.
+
+
