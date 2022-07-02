@@ -12,4 +12,7 @@ Returns a new list created by replacing the content of the old list `my_list` at
 ### 3-print_reversed_list_integer.py
 Prints out the elements of a list of integers in reverse. Prints one element per newline.
 
+### 4-new_in_list.py
+Replaces the value of an element at a specific index `idx` in new and seperate copy of the list `my_list`.
+
 ### 
