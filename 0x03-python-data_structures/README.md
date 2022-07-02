@@ -6,4 +6,7 @@ Prints out the content of a list of numbers to the screen. Each element (number)
 ### 1-element_at.py
 Returns the content of the list: `my_list` at the specified index: `idx`. Returns `None` if `idx` is negative or out of range.
 
+### 2-replace_in_list.py
+Returns a new list created by replacing the content of the old list `my_list` at the specified index `idx`. If `idx` is negative or out of range, then return the old list `my_list` unaltered.
+
 ###
