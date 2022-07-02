@@ -18,4 +18,7 @@ Replaces the value of an element at a specific index `idx` in new and seperate c
 ### 5-no_c.py
 Contains a function `no_c` which takes a string as it's argument and returns a new string in which any occurences of the letters `c` or `C` have been removed.
 
+### 6-print_matrix_integer.py
+Prints out the contents of a matrix to the screen.
+
 ###
