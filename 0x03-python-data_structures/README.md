@@ -15,4 +15,7 @@ Prints out the elements of a list of integers in reverse. Prints one element per
 ### 4-new_in_list.py
 Replaces the value of an element at a specific index `idx` in new and seperate copy of the list `my_list`.
 
-### 
+### 5-no_c.py
+Contains a function `no_c` which takes a string as it's argument and returns a new string in which any occurences of the letters `c` or `C` have been removed.
+
+###
