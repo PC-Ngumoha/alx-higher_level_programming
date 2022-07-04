@@ -27,4 +27,7 @@ Adds the values of two elements from a tuple together and assigns the result of 
 ### 8-multiple_returns.py
 This contains the function `multiple_returns` which takes a string as it's argument and returns a tuple containing two elements; The `length` of the string and the `first` character in the string.
 
+### 9-max_integer.py
+This contains the function `max_integer` which takes a list of integers `my_list` as it's argument, determines which element is the largest and then returns that element.
+
 ###  
