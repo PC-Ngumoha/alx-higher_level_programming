@@ -33,4 +33,7 @@ This contains the function `max_integer` which takes a list of integers `my_list
 ### 10-divisible_by_2.py
 This contains the function `divisible_by_2` which takes a list of integers, evaluates each integer in the list and creates a new list containing the boolean `True` or `False` at the specific index in the new list depending on whether the integer in the original list is divisible by 2 (True) or not (False).
 
-###   
+### 11-delete_at.py
+This contains the function `delete_at` which takes two arguments; a list `my_list` and an index `idx`. Then it deletes the element at the specified index in the list and returns the result.
+
+###    
