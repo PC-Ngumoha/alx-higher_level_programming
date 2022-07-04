@@ -24,4 +24,7 @@ Prints out the contents of a matrix to the screen.
 ### 7-add_tuple.py
 Adds the values of two elements from a tuple together and assigns the result of the addition to the corresponding elements in a two-element tuple.
 
-### 
+### 8-multiple_returns.py
+This contains the function `multiple_returns` which takes a string as it's argument and returns a tuple containing two elements; The `length` of the string and the `first` character in the string.
+
+###  
