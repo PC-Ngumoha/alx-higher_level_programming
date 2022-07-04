@@ -30,4 +30,7 @@ This contains the function `multiple_returns` which takes a string as it's argum
 ### 9-max_integer.py
 This contains the function `max_integer` which takes a list of integers `my_list` as it's argument, determines which element is the largest and then returns that element.
 
-###  
+### 10-divisible_by_2.py
+This contains the function `divisible_by_2` which takes a list of integers, evaluates each integer in the list and creates a new list containing the boolean `True` or `False` at the specific index in the new list depending on whether the integer in the original list is divisible by 2 (True) or not (False).
+
+###   
