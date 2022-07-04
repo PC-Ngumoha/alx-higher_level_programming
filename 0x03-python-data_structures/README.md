@@ -36,4 +36,7 @@ This contains the function `divisible_by_2` which takes a list of integers, eval
 ### 11-delete_at.py
 This contains the function `delete_at` which takes two arguments; a list `my_list` and an index `idx`. Then it deletes the element at the specified index in the list and returns the result.
 
+### 12-switch.py
+switches the values of two variables `a` and `b`.
+
 ###    
