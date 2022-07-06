@@ -24,4 +24,7 @@ prints out the contents of a dictionary by ordered keys.
 ### 7-update_dictionary.py
 updates the contents of a dictionary.
 
-###        
+### 8-simple_delete.py
+deletes an element from the dictionary through the use of the key.
+
+###         
