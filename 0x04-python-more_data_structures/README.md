@@ -21,4 +21,7 @@ returns the number of keys in a dictionary.
 ### 6-print_sorted_dictionary.py
 prints out the contents of a dictionary by ordered keys.
 
-###       
+### 7-update_dictionary.py
+updates the contents of a dictionary.
+
+###        
