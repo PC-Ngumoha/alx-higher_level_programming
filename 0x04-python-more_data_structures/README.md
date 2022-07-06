@@ -9,4 +9,7 @@ Searches for and replaces every occurrence of an element in a list with another 
 ### 2-uniq_add.py
 Adds up all the integers in a list (once for each integer) and returns the result.
 
-###   
+### 3-common_elements.py
+Returns a set containing elements common to the sets `set_1` and `set_2` passed into it.
+
+###    
