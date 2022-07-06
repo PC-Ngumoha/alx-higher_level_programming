@@ -18,4 +18,7 @@ Returns a set containing elements which are not common to `set_1` and `set_2`.
 ### 5-number_keys.py
 returns the number of keys in a dictionary.
 
-###      
+### 6-print_sorted_dictionary.py
+prints out the contents of a dictionary by ordered keys.
+
+###       
