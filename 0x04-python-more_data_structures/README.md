@@ -27,4 +27,7 @@ updates the contents of a dictionary.
 ### 8-simple_delete.py
 deletes an element from the dictionary through the use of the key.
 
-###         
+### 9-multiply_by_2.py
+creates a new dictionary by multiplying the values in the dictionary by `2` and returns the newly created dictionary.
+
+###          
