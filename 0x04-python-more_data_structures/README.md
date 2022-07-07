@@ -30,4 +30,7 @@ deletes an element from the dictionary through the use of the key.
 ### 9-multiply_by_2.py
 creates a new dictionary by multiplying the values in the dictionary by `2` and returns the newly created dictionary.
 
-###          
+### 10-best_score.py
+searches through a dictionary of students' scores for the student with the best score and then returns the name of the student.
+
+###           
