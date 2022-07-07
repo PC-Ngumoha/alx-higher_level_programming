@@ -33,4 +33,7 @@ creates a new dictionary by multiplying the values in the dictionary by `2` and 
 ### 10-best_score.py
 searches through a dictionary of students' scores for the student with the best score and then returns the name of the student.
 
-###           
+### 11-multiply_list_map.py
+contains the function `multiply_list_map` which takes a list and an integer as it's argument and then returns a new list formed by multiplying each element in the original list by the specified integer `number`.
+
+###            
