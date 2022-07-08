@@ -42,4 +42,7 @@ contains the function `roman_to_int` which takes a string representing a roman n
 ### 100-weight_average.py
 contains the function `weight_average` which takes a list of tuples as it's argument and then calculates the weighted average of all the numbers in the list of tuples, and then returns the result. returns `0` if the list is empty.
 
+### 101-square_matrix_map.py
+contains the function `square_matrix_map` which takes a 2D list of elements and returns a new 2D list of elements which is formed by obtaining the square of each of the elements in the original 2D list of elements. The original 2D list will remain unmodified.
+
 ### 
