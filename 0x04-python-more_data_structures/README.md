@@ -39,4 +39,7 @@ contains the function `multiply_list_map` which takes a list and an integer as i
 ### 12-roman_to_int.py
 contains the function `roman_to_int` which takes a string representing a roman numeral, converts it into it's equivalent integer (Arabic numeral) number and returns the resulting number. returns `0` if the  argument passed is not a string or is `None`.
 
-###              
+### 100-weight_average.py
+contains the function `weight_average` which takes a list of tuples as it's argument and then calculates the weighted average of all the numbers in the list of tuples, and then returns the result. returns `0` if the list is empty.
+
+### 
