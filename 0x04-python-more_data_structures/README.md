@@ -36,4 +36,7 @@ searches through a dictionary of students' scores for the student with the best 
 ### 11-multiply_list_map.py
 contains the function `multiply_list_map` which takes a list and an integer as it's argument and then returns a new list formed by multiplying each element in the original list by the specified integer `number`.
 
-###            
+### 12-roman_to_int.py
+contains the function `roman_to_int` which takes a string representing a roman numeral, converts it into it's equivalent integer (Arabic numeral) number and returns the resulting number. returns `0` if the  argument passed is not a string or is `None`.
+
+###              
