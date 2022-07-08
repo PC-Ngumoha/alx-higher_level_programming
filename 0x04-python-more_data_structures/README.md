@@ -45,4 +45,4 @@ contains the function `weight_average` which takes a list of tuples as it's argu
 ### 101-square_matrix_map.py
 contains the function `square_matrix_map` which takes a 2D list of elements and returns a new 2D list of elements which is formed by obtaining the square of each of the elements in the original 2D list of elements. The original 2D list will remain unmodified.
 
-### 
+###   
