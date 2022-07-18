@@ -15,4 +15,7 @@ Prints out the result of dividing `a` by `b`, Otherwise, prints `None` if `ZeroD
 ### 4-list_division.py
 Returns a new list created by dividing each element of the list `my_list_1` by the corresponding element of the list `my_list_2`. If any element is not an integer or float, it prints `wrong type` to the screen. If the division can't be done, it prints `division by 0` to the screen. If either of the list are too short, it prints `out of range` to the screen.
 
-### 
+### 5-raise_exception.py
+Raises an exception of type `TypeError`.
+
+###  
