@@ -18,4 +18,7 @@ Returns a new list created by dividing each element of the list `my_list_1` by t
 ### 5-raise_exception.py
 Raises an exception of type `TypeError`.
 
-###  
+### 6-raise_exception_msg.py
+Raises an exception of type `NameError` with a runtime message `message`
+
+### 
