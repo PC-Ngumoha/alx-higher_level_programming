@@ -21,4 +21,7 @@ Raises an exception of type `TypeError`.
 ### 6-raise_exception_msg.py
 Raises an exception of type `NameError` with a runtime message `message`
 
-### 
+### 100-safe_print_integer_err.py
+prints an integer and returns `True` if successful. Otherwise, if it fails, it prints the error message to `stderr` and returns `False`.
+
+###  
