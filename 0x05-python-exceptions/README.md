@@ -9,7 +9,10 @@ Prints out the value of an integer. returns `True` if value passed is an integer
 ### 2-safe_print_list_integers.py
 Prints out only the integers in a list, skips over any occurrence of other types in the list. An exception occurs when we try to print an integer outside the range of the list.
 
-### 3-safe_print_division
+### 3-safe_print_division.py
 Prints out the result of dividing `a` by `b`, Otherwise, prints `None` if `ZeroDivisionError` exception occurs.
+
+### 4-list_division.py
+Returns a new list created by dividing each element of the list `my_list_1` by the corresponding element of the list `my_list_2`. If any element is not an integer or float, it prints `wrong type` to the screen. If the division can't be done, it prints `division by 0` to the screen. If either of the list are too short, it prints `out of range` to the screen.
 
 ### 
