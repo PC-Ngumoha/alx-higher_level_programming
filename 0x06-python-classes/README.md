@@ -19,4 +19,7 @@ Incorporates the `size` property getter and setter to enable us update the `size
 ### 5-square.py
 Incorporates the function `my_print` into the definition of the `Square` class which prints out the Square to the screen using the `#` character as units/symbols for the printed square.
 
-###     
+### 6-square.py
+Adds the `position` private instance variable to the definition of the `Square` class and provides the getters and setters for it.
+
+###    
