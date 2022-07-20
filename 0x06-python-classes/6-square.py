@@ -83,9 +83,10 @@ class Square:
         """
         if self.__size == 0:
             print()
-        # Prints the vertical offset of the square
-        for y in range(self.__position[1]):
-            print()
+        else:
+            # Prints the vertical offset of the square
+            for y in range(self.__position[1]):
+                print()
         for i in range(self.__size):
             # Prints the horizontal offset of the square
             for x in range(self.__position[0]):
