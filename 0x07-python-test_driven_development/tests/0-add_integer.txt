@@ -1,0 +1,71 @@
+0-add_integer.txt
+-> Text file containing the tests for the 0-add_integer.py code file.
+
+Importing the python code:
+>>> add_integer = __import__('0-add_integer').add_integer
+
+
+TEST CASE 1: Both integer arguments are supplied.
+>>> add_integer(2, 3)
+5
+
+TEST CASE 2: The second integer argument is not supplied.
+>>> add_integer(2)
+100
+
+TEST CASE 3: The first argument supplied is a float.
+>>> add_integer(2.0, 4)
+6
+
+TEST CASE 4: The second argument supplied is a float.
+>>> add_integer(5, 11.0)
+16
+
+TEST CASE 5: Both arguments supplied are floats.
+>>> add_integer(2.0, 11.0)
+13
+
+TEST CASE 6: The first argument supplied is a string.
+>>> add_integer("hello", 2)
+Traceback (most recent call last):
+TypeError: a must be an integer
+
+>>> add_integer("hello", 2)
+Traceback (innermost last):
+TypeError: a must be an integer
+
+TEST CASE 7: The second argument supplied is a string.
+>>> add_integer(4, "world")
+Traceback (most recent call last):
+TypeError: b must be an integer
+
+>>> add_integer(4, "world")
+Traceback (innermost last):
+TypeError: b must be an integer
+
+TEST CASE 8: Both arguments supplied are strings.
+>>> add_integer("hello", "world")
+Traceback (most recent call last):
+TypeError: a must be an integer
+
+>>> add_integer("hello", "world")
+Traceback (innermost last):
+TypeError: a must be an integer
+
+TEST CASE 9: The first argument is assigned a value of NoneType.
+>>> add_integer(None)
+Traceback (most recent call last):
+TypeError: a must be an integer
+
+>>> add_integer(None)
+Traceback (innermost last):
+TypeError: a must be an integer
+
+TEST CASE 10: The first argument is not supplied at all
+>>> add_integer()
+Traceback (most recent call last):
+TypeError: add_integer() missing 1 required positional argument: 'a'
+
+>>> add_integer()
+Traceback (innermost last):
+TypeError: add_integer() missing 1 required positional argument: 'a'
