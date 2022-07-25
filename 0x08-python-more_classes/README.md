@@ -9,4 +9,7 @@ Contains the definition of a version of the class `Rectangle` with the `width` a
 ### 2-rectangle.py
 Contains the definition of a version of the class `Rectangle` with the `area` and `perimeter` instance methods provided for determining the `area` and `perimeter` respectively of the rectangle.
 
-###   
+### 3-rectangle.py
+Contains the definition of a version of the class `Rectangle` which defines functionality that enables it's shape to be printed out to the screen by the `str` and `print` functions.
+
+###    
