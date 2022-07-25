@@ -21,4 +21,7 @@ Contains the definition of a version of the `Rectangle` class which prints the m
 ### 6-rectangle.py
 Contains the definition of a version of the `Rectangle` class which keeps a count of all instances of the class that have been created, incrementing or decrementing that count as the need arises.
 
-### 
+### 7-rectangle.py
+Contains the definition of a version of the `Rectangle` class which enables us to change the symbols which are used to represent the rectangle when it is being printed to the screen.
+
+###  
