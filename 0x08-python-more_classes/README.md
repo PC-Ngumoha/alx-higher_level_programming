@@ -12,4 +12,7 @@ Contains the definition of a version of the class `Rectangle` with the `area` an
 ### 3-rectangle.py
 Contains the definition of a version of the class `Rectangle` which defines functionality that enables it's shape to be printed out to the screen by the `str` and `print` functions.
 
-###    
+### 4-rectangle.py
+Contains the definition of a version of the class `Rectangle` which defines the `__str__` and `__repr__` special methods for unofficial and official representation of the rectangle.
+
+###     
