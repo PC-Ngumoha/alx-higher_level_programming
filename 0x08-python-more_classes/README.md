@@ -18,4 +18,7 @@ Contains the definition of a version of the class `Rectangle` which defines the 
 ### 5-rectangle.py
 Contains the definition of a version of the `Rectangle` class which prints the message; `Bye rectangle...` whenever an instance of a `Rectangle` is deleted.
 
-###      
+### 6-rectangle.py
+Contains the definition of a version of the `Rectangle` class which keeps a count of all instances of the class that have been created, incrementing or decrementing that count as the need arises.
+
+### 
