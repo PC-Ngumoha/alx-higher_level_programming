@@ -36,6 +36,8 @@ class Rectangle:
         """String representation of the Rectangle.
         """
         rectangle = ""
+        if self.__height == 0 or self.__width == 0:
+            return rectangle
         for i in range(self.__height):
             for j in range(self.__width):
                 rectangle += '#'
