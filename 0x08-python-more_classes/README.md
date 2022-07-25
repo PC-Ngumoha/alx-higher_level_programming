@@ -15,4 +15,7 @@ Contains the definition of a version of the class `Rectangle` which defines func
 ### 4-rectangle.py
 Contains the definition of a version of the class `Rectangle` which defines the `__str__` and `__repr__` special methods for unofficial and official representation of the rectangle.
 
-###     
+### 5-rectangle.py
+Contains the definition of a version of the `Rectangle` class which prints the message; `Bye rectangle...` whenever an instance of a `Rectangle` is deleted.
+
+###      
