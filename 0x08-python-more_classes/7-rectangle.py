@@ -44,9 +44,9 @@ class Rectangle:
             return rectangle
         for i in range(self.__height):
             for j in range(self.__width):
-                rectangle += Rectangle.print_symbol
+                rectangle += str(self.print_symbol)
             if i < self.__height - 1:
-                rectangle += '\n'
+                rectangle += "\n"
         return rectangle
 
     def __repr__(self):
