@@ -24,4 +24,7 @@ Contains the definition of a version of the `Rectangle` class which keeps a coun
 ### 7-rectangle.py
 Contains the definition of a version of the `Rectangle` class which enables us to change the symbols which are used to represent the rectangle when it is being printed to the screen.
 
-###  
+### 8-rectangle.py
+Contains the definition of a version of the `Rectangle` class which contains the static method `bigger_or_equal` which is used to determine which among two Rectangles passed into it as arguments is bigger.
+
+###   
