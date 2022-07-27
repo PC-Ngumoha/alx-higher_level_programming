@@ -27,4 +27,7 @@ Contains the definition of a version of the `Rectangle` class which enables us t
 ### 8-rectangle.py
 Contains the definition of a version of the `Rectangle` class which contains the static method `bigger_or_equal` which is used to determine which among two Rectangles passed into it as arguments is bigger.
 
-###   
+### 9-rectangle.py
+Contains the definition of a version of the `Rectangle` class which contains the class method `square` which creates a Rectangle of equal `width` and `height`. Hence it uses the `Rectangle` class in order to create a `Square`.
+
+###    
