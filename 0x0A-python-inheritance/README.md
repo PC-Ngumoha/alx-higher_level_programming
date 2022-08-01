@@ -20,7 +20,10 @@ contains the function `inherits_from` which takes two arguments; an object `obj`
 ### 5-base_geometry.py
 contains the definition of an empty version of the `BaseGeometry` class. 
 
-### 
+### 6-base_geometry.py
+contains the definition of a version of the `BaseGeometry` class which is simply an extension of the version created in the `5-base_geometry.py` file created above.
+
+###  
 
 ## Test Files
 
