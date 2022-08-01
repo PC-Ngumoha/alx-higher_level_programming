@@ -6,6 +6,7 @@ A subclass of the ``BaseGeometry`` class.
 
 base_geometry = __import__("7-base_geometry")
 
+
 class Rectangle(base_geometry.BaseGeometry):
     """``Rectangle`` class definition.
     """
