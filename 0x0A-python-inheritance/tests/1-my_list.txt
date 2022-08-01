@@ -1,0 +1,29 @@
+Test Cases For 1-my_list.py
+
+
+>>> print(__import__("1-my_list").__doc__)
+Module containing the ``MyList`` class definition.
+ 
+>>> print(__import__("1-my_list").MyList.__doc__)
+``MyList`` class definition.
+
+>>> print(__import__("1-my_list").MyList.print_sorted.__doc__)
+prints out the content of the list in a sorted order.
+
+Importing the MyList class:
+>>> MyList = __import__("1-my_list").MyList
+
+Test Case #1
+>>> new_list = MyList()
+>>> new_list.append(1)
+>>> new_list.append(4)
+>>> new_list.append(2)
+>>> new_list.append(3)
+>>> new_list.append(5)
+>>> new_list.print_sorted()
+[1, 2, 3, 4, 5]
+
+Test Case #2
+>>> new_list2 = MyList()
+>>> new_list2.print_sorted()
+[]
