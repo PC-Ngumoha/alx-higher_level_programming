@@ -29,7 +29,10 @@ contains the definition of a version of the `BaseGeometry` class which is simply
 ### 8-rectangle.py
 contains the definition of the `Rectangle` class, a subclass of the version of the `BaseGeometry` class from the `7-base_geometry.py` file above.
 
-###  
+### 9-rectangle.py
+contains the definition of a more complete version of the `Rectangle` class introduced in the `8-rectangle.py` file above.
+
+###    
 
 ## Test Files
 
