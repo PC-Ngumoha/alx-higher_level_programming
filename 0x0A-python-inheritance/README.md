@@ -26,7 +26,10 @@ contains the definition of a version of the `BaseGeometry` class which is simply
 ### 7-base_geometry.py
 contains the definition of a version of the `BaseGeometry` class which is simply an extensionof the version created in the `6-base_geometry.py` file above. It contains an incomplete implementation of the `integer_validator` method.
 
-###   
+### 8-rectangle.py
+contains the definition of the `Rectangle` class, a subclass of the version of the `BaseGeometry` class from the `7-base_geometry.py` file above.
+
+###  
 
 ## Test Files
 
