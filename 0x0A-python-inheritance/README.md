@@ -11,6 +11,11 @@ prints out the elements of an instance of the `MyList` class in a sorted order (
 ### 2-is_same_class.py
 contains the function `is_same_class` which takes two arguments; an object `obj` and a class `a_class` and  returns `True` if `obj` is an instance of `a_class`. Otherwise, it returns `False`.
 
+### 3-is_kind_of_class.py
+contains the function `is_kind_of_class` which takes two arguments; an object `obj` and a class `a_class` and returns `True` is `obj` is an instance of `a_class` or an instance of any of it's subclasses. Otherwise, it returns `False`.
+
+### 
+
 ## Test Files
 
 ### tests/1-my_list.txt
