@@ -3,7 +3,6 @@
 """
 
 
-
 class MyInt(int):
     """class ``MyInt`` definition.
     """
