@@ -35,7 +35,10 @@ contains the definition of a more complete version of the `Rectangle` class intr
 ### 10-square.py
 contains the definition of the class `Square`, a subclass of the `Rectangle` class which it'self is a subclass of the `BaseGeometry` class.
 
-###     
+### 11-square.py
+contains the definition of a more complete version of the `Square` class as introduced in the `10-square.py` file above.
+
+###      
 
 ## Test Files
 
