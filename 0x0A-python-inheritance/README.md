@@ -38,7 +38,8 @@ contains the definition of the class `Square`, a subclass of the `Rectangle` cla
 ### 11-square.py
 contains the definition of a more complete version of the `Square` class as introduced in the `10-square.py` file above.
 
-###      
+### 100-my_int.py
+contains the definition of user-defined class `MyInt` which is a subclass of the `int` class.     
 
 ## Test Files
 
