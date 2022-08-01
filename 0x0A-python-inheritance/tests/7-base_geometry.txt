@@ -1,0 +1,44 @@
+Tests For The integer_validator method in 7-base_geometry.py
+
+Importing the class from it's module
+>>> BaseGeometry = __import__("7-base_geometry").BaseGeometry
+>>> bg = BaseGeometry()
+
+General Documentation tests:
+>>> print(__import__("7-base_geometry").__doc__)
+Module contains the ``BaseGeometry`` class definition.
+<BLANKLINE>
+
+>>> print(__import__("7-base_geometry").BaseGeometry.__doc__)
+``BaseGeometry`` class definition.
+<BLANKLINE>
+
+>>> print(__import__("7-base_geometry").BaseGeometry.integer_validator.__doc__) #doctest: +ELLIPSIS
+validates the value of a parameter.
+...
+<BLANKLINE>
+
+Code Tests:
+
+Test Case #1:
+>>> bg.integer_validator("emeka", 20)
+
+Test Case #2:
+>>> bg.integer_validator("emeka", "john") #doctest: +ELLIPSIS
+Traceback (most recent call last):
+TypeError: ... must be an integer
+
+Test Case #3:
+>>> bg.integer_validator("emeka", True) #doctest: +ELLIPSIS
+Traceback (most recent call last):
+TypeError: ... must be an integer
+
+Test Case #4:
+>>> bg.integer_validator("emeka", 10.0) #doctest: +ELLIPSIS
+Traceback (most recent call last):
+TypeError: ... must be an integer
+
+Test Case #5:
+>>> bg.integer_validator("emeka", -10) #doctest: +ELLIPSIS
+Traceback (most recent call last):
+ValueError: ... must be greater than 0

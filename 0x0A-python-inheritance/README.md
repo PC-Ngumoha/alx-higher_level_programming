@@ -23,9 +23,15 @@ contains the definition of an empty version of the `BaseGeometry` class.
 ### 6-base_geometry.py
 contains the definition of a version of the `BaseGeometry` class which is simply an extension of the version created in the `5-base_geometry.py` file created above.
 
-###  
+### 7-base_geometry.py
+contains the definition of a version of the `BaseGeometry` class which is simply an extensionof the version created in the `6-base_geometry.py` file above. It contains an incomplete implementation of the `integer_validator` method.
+
+###   
 
 ## Test Files
 
 ### tests/1-my_list.txt
 tests out the functionality of the code in the `1-my_list.py` file.
+
+### tests/7-base_geometry.txt
+tests out the functionality of the `integer_validator` method defined in the `BaseGeometry` class found in the `7-base_geometry.py` file.
