@@ -17,6 +17,9 @@ contains the function `is_kind_of_class` which takes two arguments; an object `o
 ### 4-inherits_from.py
 contains the function `inherits_from` which takes two arguments; an object `obj` and a class `a_class` and returns `True` if `obj` is an instance of a subclass of `a_class`. Otherwise, it returns `False`.
 
+### 5-base_geometry.py
+contains the definition of an empty version of the `BaseGeometry` class. 
+
 ### 
 
 ## Test Files
