@@ -14,4 +14,7 @@ contains the definition of the function `append_write` which takes the name of a
 ### 3-to_json_string.py
 contains the definition of the function `to_json_string` which takes a single object as it's argument and returns the JSON string representation of that object.
 
-###  
+### 4-from_json_string.py
+contains the definition of the function `from_json_string` which takes a single JSON string as it's argument and then returns the object that it represents.
+
+### 
