@@ -39,7 +39,10 @@ contains the definition of the class `Square`, a subclass of the `Rectangle` cla
 contains the definition of a more complete version of the `Square` class as introduced in the `10-square.py` file above.
 
 ### 100-my_int.py
-contains the definition of user-defined class `MyInt` which is a subclass of the `int` class.     
+contains the definition of user-defined class `MyInt` which is a subclass of the `int` class.
+
+### 101-add_attribute.py
+contains the function `add_attribute` which adds a specified attribute to a given object. If it can't it returns a `TypeError` and the message `can't add new attribute`     
 
 ## Test Files
 
