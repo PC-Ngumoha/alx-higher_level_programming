@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 """Module containing the ``append_write`` function definition.
 """
 
