@@ -23,4 +23,7 @@ contains the definition of the function `save_to_json_file` which takes an objec
 ### 6-load_from_json_file.py
 contains the definition of the  function `load_from_json_file` which takes a file name `filename` as it's single argument and returns an object based on the JSON string found in the file.
 
-###   
+### 7-add_item.py
+A script that updates a file containing the JSON string representation of a list with a new item (supplied from the command line).
+
+###    
