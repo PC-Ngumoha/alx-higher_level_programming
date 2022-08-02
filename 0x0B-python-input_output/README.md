@@ -29,4 +29,5 @@ A script that updates a file containing the JSON string representation of a list
 ### 8-class_to_json.py
 outputs a dictionary containing all the attributes in the class.
 
-###    
+### 9-student.py
+    
