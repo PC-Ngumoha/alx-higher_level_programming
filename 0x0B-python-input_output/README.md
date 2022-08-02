@@ -20,4 +20,7 @@ contains the definition of the function `from_json_string` which takes a single 
 ### 5-save_to_json_file.py
 contains the definition of the function `save_to_json_file` which takes an object `my_obj` and a file name `filename` as it's arguments and saves the JSON string representation of `my_obj` to the file named `filename`.
 
-###  
+### 6-load_from_json_file.py
+contains the definition of the  function `load_from_json_file` which takes a file name `filename` as it's single argument and returns an object based on the JSON string found in the file.
+
+###   
