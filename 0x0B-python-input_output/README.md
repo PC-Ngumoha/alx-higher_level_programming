@@ -11,4 +11,7 @@ contains the definition of the function `write_file` which takes the name of a f
 ### 2-append_write.py
 contains the definition of the function `append_write` which takes the name of a file `filename` and a string `text` as it's arguments and appends `text` to `filename`. Returns the number of characters appended each time the program is run.
 
-### 
+### 3-to_json_string.py
+contains the definition of the function `to_json_string` which takes a single object as it's argument and returns the JSON string representation of that object.
+
+###  
