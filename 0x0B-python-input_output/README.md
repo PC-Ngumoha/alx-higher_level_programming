@@ -35,4 +35,7 @@ outputs a dictionary containing all the attributes in the class.
 
 ### 11-student.py
 
-###      
+### 12-pascal_triangle.py
+returns a 2D list which contains a pascal triangle.
+
+###       
