@@ -16,6 +16,12 @@ class Rectangle(Base):
         self.x = x
         self.y = y
 
+    def __str__(self):
+        """Returns the string representation of the `Rectangle` object.
+        """
+        return "[Rectangle] ({}) {}/{} - {}/{}".format(
+                self.id, self.x, self.y, self.width, self.height)
+
     @property
     def width(self):
         """``width`` property.
@@ -79,8 +85,16 @@ class Rectangle(Base):
                 raise ValueError("y must be >= 0")
         else:
             raise TypeError("y must be an integer")
-    
+
     def area(self):
         """Returns the area of the Rectangle.
         """
         return self.width * self.height
+
+    def display(self):
+        """Prints out the rectangle to the screen.
+        """
+        for i in range(self.height):
+            for j in range(self.width):
+                print('#', end='')
+            print('\n', end='')
