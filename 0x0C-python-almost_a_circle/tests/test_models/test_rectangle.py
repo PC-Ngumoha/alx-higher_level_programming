@@ -5,7 +5,7 @@ import sys
 from models.rectangle import Rectangle
 
 
-class TestRectangleClass(unittest.TestCase):
+class TestRectangle(unittest.TestCase):
    
     def test_instance_ids(self):
         self.rect1 = Rectangle(10, 2, 0, 0, 1)
@@ -57,16 +57,14 @@ class TestRectangleClass(unittest.TestCase):
         output = "[Rectangle] (12) 0/0 - 2/3"
         self.assertEqual(str(self.rect), output)
 
-    '''
     def test_display(self):
         self.rect = Rectangle(2, 3)
-        value =
+        value = "##\n##\n##\n"
         output = io.StringIO()  # Capture the string console output
         sys.stdout = output     # Redirect the standard output to string.
         self.rect.display()     # calling function that prints to screen
         sys.stdout = sys.__stdout__  #Redirect back to standard output
-        self.assertEqual(output, value)  # test captured output
-    '''
+        self.assertEqual(output.getvalue(), value)  # test captured output
 
 if __name__ == '__main__':
     unittest.main()
