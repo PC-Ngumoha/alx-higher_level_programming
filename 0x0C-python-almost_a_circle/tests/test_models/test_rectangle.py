@@ -82,6 +82,26 @@ class TestRectangle(unittest.TestCase):
         result = prints_expected(display_rect, expected)
         self.assertIs(result, True)
 
+    def test_update(self):
+        expected = "[Rectangle] (12) 0/0 - 10/2"
+        self.assertEqual(str(self.rect), expected)
+        self.rect.update(10)
+        expected = "[Rectangle] (10) 0/0 - 10/2"
+        self.assertEqual(str(self.rect), expected)
+        self.rect.update(10, 11)
+        expected = "[Rectangle] (10) 0/0 - 11/2"
+        self.assertEqual(str(self.rect), expected)
+        self.rect.update(10, 11, 21)
+        expected = "[Rectangle] (10) 0/0 - 11/21"
+        self.assertEqual(str(self.rect), expected)
+        self.rect.update(10, 11, 21, 1)
+        expected = "[Rectangle] (10) 1/0 - 11/21"
+        self.assertEqual(str(self.rect), expected)
+        self.rect.update(10, 11, 21, 1, 2)
+        expected = "[Rectangle] (10) 1/2 - 11/21"
+        self.assertEqual(str(self.rect), expected)
+
+
 # Helper function for test_display TestCase
 def prints_expected(display_rect, test_value):
     output = io.StringIO()

@@ -102,3 +102,31 @@ class Rectangle(Base):
             for j in range(self.width):
                 print('#', end='')
             print()
+    
+    def update(self, *args):
+        """Updates each attribute of the class
+        """
+        if len(args) == 1:
+            super().__init__(args[0])
+        elif len(args) == 2:
+            id, width = args
+            super().__init__(id)
+            self.width = width
+        elif len(args) == 3:
+            id, width, height = args
+            super().__init__(id)
+            self.width = width
+            self.height = height
+        elif len(args) == 4:
+            id, width, height, x = args
+            super().__init__(id)
+            self.width = width
+            self.height = height
+            self.x = x
+        elif len(args) == 5:
+            id, width, height, x, y = args
+            super().__init__(id)
+            self.width = width
+            self.height = height
+            self.x = x
+            self.y = y
