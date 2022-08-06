@@ -43,3 +43,8 @@ class TestSquare(unittest.TestCase):
         self.sqr.update(x=2, y=1, id=13, size=31)
         expected = "[Square] (13) 2/1 - 31"
         self.assertEqual(str(self.sqr), expected)
+
+    def test_to_dictionary(self):
+        sqr_dictionary = self.sqr.to_dictionary()
+        expected = {'id': 1, 'size': 10, 'x': 0, 'y': 0}
+        self.assertDictEqual(sqr_dictionary, expected)
