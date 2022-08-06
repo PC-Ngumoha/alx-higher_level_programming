@@ -82,23 +82,40 @@ class TestRectangle(unittest.TestCase):
         result = prints_expected(display_rect, expected)
         self.assertIs(result, True)
 
-    def test_update(self):
+    def test_update_args(self):
         expected = "[Rectangle] (12) 0/0 - 10/2"
         self.assertEqual(str(self.rect), expected)
+        
         self.rect.update(10)
         expected = "[Rectangle] (10) 0/0 - 10/2"
         self.assertEqual(str(self.rect), expected)
+        
         self.rect.update(10, 11)
         expected = "[Rectangle] (10) 0/0 - 11/2"
         self.assertEqual(str(self.rect), expected)
+        
         self.rect.update(10, 11, 21)
         expected = "[Rectangle] (10) 0/0 - 11/21"
         self.assertEqual(str(self.rect), expected)
+        
         self.rect.update(10, 11, 21, 1)
         expected = "[Rectangle] (10) 1/0 - 11/21"
         self.assertEqual(str(self.rect), expected)
+        
         self.rect.update(10, 11, 21, 1, 2)
         expected = "[Rectangle] (10) 1/2 - 11/21"
+        self.assertEqual(str(self.rect), expected)
+
+    def test_update_kwargs(self):
+        expected = "[Rectangle] (12) 0/0 - 10/2"
+        self.assertEqual(str(self.rect), expected)
+
+        self.rect.update(id=13)
+        expected = "[Rectangle] (13) 0/0 - 10/2"
+        self.assertEqual(str(self.rect), expected)
+        
+        self.rect.update(width=8, height=4, x=7, y=3, id=1)
+        expected = "[Rectangle] (1) 7/3 - 8/4"
         self.assertEqual(str(self.rect), expected)
 
 
