@@ -118,11 +118,6 @@ class TestRectangle(unittest.TestCase):
         expected = "[Rectangle] (1) 7/3 - 8/4"
         self.assertEqual(str(self.rect), expected)
 
-    def test_to_rectangle(self):
-        rect_dictionary = self.rect.to_dictionary()
-        expected = {'id': 12, 'width': 10, 'height': 2, 'x': 0, 'y': 0}
-        self.assertDictEqual(rect_dictionary, expected)
-
 
 # Helper function for test_display TestCase
 def prints_expected(display_rect, test_value):
