@@ -102,7 +102,7 @@ class Rectangle(Base):
             for j in range(self.width):
                 print('#', end='')
             print()
-    
+
     def update(self, *args, **kwargs):
         """Updates each attribute of the class
         """
@@ -144,4 +144,3 @@ class Rectangle(Base):
                         self.x = kwargs[key]
                     elif key == 'y':
                         self.y = kwargs[key]
-
