@@ -8,6 +8,9 @@ class TestSquare(unittest.TestCase):
 
     def tearDown(self):
         self.sqr.size = 10
+        self.sqr.x = 0
+        self.sqr.y = 0
+        self.sqr.id = 1
 
     def test_init(self):
         self.assertEqual(self.sqr.width, 10)
@@ -31,3 +34,12 @@ class TestSquare(unittest.TestCase):
         
         with self.assertRaises(ValueError):
             self.sqr.size = -12
+
+    def test_update(self):
+        self.sqr.update(12, 30, 1, 2)
+        expected = "[Square] (12) 1/2 - 30"
+        self.assertEqual(str(self.sqr), expected)
+
+        self.sqr.update(x=2, y=1, id=13, size=31)
+        expected = "[Square] (13) 2/1 - 31"
+        self.assertEqual(str(self.sqr), expected)
