@@ -49,3 +49,11 @@ class Base:
         filename = "{}.json".format(cls.__name__)
         with open(filename, 'w') as f:
             f.write(objs)
+
+    @classmethod
+    def create(cls, **dictionary):
+        """creates a new object from the values in dictionary.
+        """
+        obj = cls(1, 1)
+        obj.update(**dictionary)
+        return obj

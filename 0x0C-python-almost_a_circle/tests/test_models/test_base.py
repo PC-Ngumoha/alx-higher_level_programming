@@ -8,8 +8,8 @@ from models.square import Square
 class TestBaseClass(unittest.TestCase):
 
     def test_instance_id_values(self):
-        b1 = Base()
-        b2 = Base(None)
+        b1 = Base(1)
+        b2 = Base(2)
         b4 = Base(12)
         self.assertEqual(b1.id, 1)
         self.assertEqual(b2.id, 2)
@@ -31,6 +31,15 @@ class TestBaseClass(unittest.TestCase):
         expected = [{'id': 1, 'width': 2, 'height': 3, 'x': 0, 'y': 0}]
         self.assertListEqual(Base.from_json_string(json_string), expected)
 
+    def test_create(self):
+         dictionary = {'id': 1, 'width': 2, 'height': 3, 'x': 0, 'y': 0}
+         rect1 = Rectangle.create(**dictionary)
+         rect2 = Rectangle.create(**dictionary)
+         expected = "[Rectangle] (1) 0/0 - 2/3"
+
+         self.assertEqual(str(rect1), expected)
+         self.assertEqual(str(rect2), expected)
+         self.assertIsNot(rect1, rect2)
 
 
 if __name__ == '__main__':
