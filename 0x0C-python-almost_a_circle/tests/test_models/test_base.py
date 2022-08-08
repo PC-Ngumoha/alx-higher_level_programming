@@ -26,6 +26,11 @@ class TestBaseClass(unittest.TestCase):
         expected = '[{"id": 1, "size": 2, "x": 0, "y": 0}]'
         self.assertEqual(Base.to_json_string([sqr_dict]), expected)
 
+    def test_from_json_string(self):
+        json_string = '[{"id": 1, "width": 2, "height": 3, "x": 0, "y": 0}]'
+        expected = [{'id': 1, 'width': 2, 'height': 3, 'x': 0, 'y': 0}]
+        self.assertListEqual(Base.from_json_string(json_string), expected)
+
 
 
 if __name__ == '__main__':
