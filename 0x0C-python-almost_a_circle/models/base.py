@@ -2,6 +2,7 @@
 """Module containing the ``Base`` class definition.
 """
 import json
+import os.path
 
 
 class Base:
@@ -38,6 +39,8 @@ class Base:
 
     @classmethod
     def save_to_file(cls, list_objs):
+        """saves list of objects to files.
+        """
         if list_objs is None:
             objs = "[]"
         else:
@@ -47,7 +50,7 @@ class Base:
                 obj_dicts.append(obj_dict)
             objs = Base.to_json_string(obj_dicts)
         filename = "{}.json".format(cls.__name__)
-        with open(filename, 'w') as f:
+        with open(filename, 'w', encoding='utf-8') as f:
             f.write(objs)
 
     @classmethod
@@ -57,3 +60,20 @@ class Base:
         obj = cls(1, 1)
         obj.update(**dictionary)
         return obj
+
+    @classmethod
+    def load_from_file(cls):
+        """Creates a new instance of the class from the contents of a file.
+        """
+        filename = "{}.json".format(cls.__name__)
+        list_objs = []
+        if not os.path.exists(filename):
+            return []
+        else:
+            with open(filename, 'r', encoding='utf-8') as file:
+                json_string = file.read()
+            list_dictionaries = Base.from_json_string(json_string)
+            for dictionary in list_dictionaries:
+                obj = cls.create(**dictionary)
+                list_objs.append(obj)
+            return list_objs
