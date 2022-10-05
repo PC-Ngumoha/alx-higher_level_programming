@@ -12,4 +12,6 @@
 
 ### 5-square.js
 
+### 6-square.js
+
 ###  
