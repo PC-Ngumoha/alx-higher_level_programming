@@ -6,4 +6,6 @@
 
 ### 2-rectangle.js
 
-###    
+### 3-rectangle.js
+
+### 
