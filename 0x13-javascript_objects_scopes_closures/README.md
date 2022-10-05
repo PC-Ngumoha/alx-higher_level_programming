@@ -14,4 +14,6 @@
 
 ### 6-square.js
 
-###  
+### 7-occurrences.js
+
+###   
