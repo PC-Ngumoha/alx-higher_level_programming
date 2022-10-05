@@ -1,7 +1,7 @@
 #!/usr/bin/node
 const dict = require('./101-data.js').dict;
 const newDict = {};
-let maxOccur = 0;
+let occurences = [];
 let sortable = [];
 
 // create an array from the dict
@@ -11,10 +11,9 @@ for (const user in dict) {
 
 // determine the max occurrence
 for (let i = 0; i < sortable.length; i++) {
-  if (maxOccur < sortable[i][1]) {
-    maxOccur = sortable[i][1];
-  }
+  occurences.push(sortable[i][1]);
 }
+occurences = new Set(occurences); // creates a new set from the 'occurences' array
 
 // sort the array
 sortable.sort((a, b) => {
@@ -23,7 +22,7 @@ sortable.sort((a, b) => {
 
 // concatenate arrays with same distribution numbers
 const compressed = [];
-for (let occur = 1; occur <= maxOccur; occur++) {
+for (const occur of occurences) {
   compressed[occur - 1] = [occur, []];
   for (let i = 0; i < sortable.length; i++) {
     if (occur === sortable[i][1]) {
