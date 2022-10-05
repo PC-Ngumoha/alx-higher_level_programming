@@ -1,12 +1,19 @@
 #!/usr/bin/node
 const dict = require('./101-data.js').dict;
 const newDict = {}
-const maxOccur = 3;
+let maxOccur = 0;
 let sortable = [];
 
 //create an array from the dict
 for (user in dict) {
   sortable.push([[user], dict[user]]);
+}
+
+//determine the max occurrence
+for (let i = 0; i < sortable.length; i++) {
+  if (maxOccur < sortable[i][1]) {
+    maxOccur = sortable[i][1];
+  }
 }
 
 //sort the array
