@@ -14,4 +14,6 @@
 
 ### 6-model_state.py && model_state.py
 
+### 7-model_state_fetch_all.py
+
 ###   
