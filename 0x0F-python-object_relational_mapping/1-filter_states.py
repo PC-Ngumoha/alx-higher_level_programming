@@ -16,7 +16,7 @@ def select_states(username, passwd, db_name):
             db=db_name,
             port=3306)
     cur = db.cursor()  # Creating a cursor object
-    cur.execute("SELECT * FROM {} WHERE {} LIKE 'N%' ORDER BY {} ASC;"
+    cur.execute("SELECT * FROM {} WHERE {} LIKE BINARY 'N%' ORDER BY {} ASC;"
                 .format('states', 'states.name', 'states.id')
                 )
     rows = cur.fetchall()
