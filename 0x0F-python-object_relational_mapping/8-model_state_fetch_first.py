@@ -18,4 +18,7 @@ if __name__ == '__main__':
     # Creating a new session
     session = Session()
     obj = session.query(State).order_by(State.id).first()
-    print('{}: {}'.format(obj.id, obj.name))
+    if obj is None:
+        print('Nothing')
+    else:
+        print('{}: {}'.format(obj.id, obj.name))
