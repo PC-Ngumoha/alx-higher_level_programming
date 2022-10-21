@@ -5,12 +5,14 @@ import sys
 
 
 if __name__ == '__main__':
-    url = sys.argv[1]
-    req = Request(url)
-    try:
-        with urlopen(req) as response:
-            output = response.read()
-            print(output.decode('utf-8'))
-    except urllib.error.HTTPError as e:
-        if e.code >= 400:
+    if len(sys.argv) == 2:
+        url = sys.argv[1]
+        req = Request(url)
+        try:
+            with urlopen(req) as response:
+                output = response.read()
+                print(output.decode('utf-8'))
+        except urllib.error.HTTPError as e:
             print('Error code: {:s}'.format(str(e.code)))
+        except Exception:
+            pass
