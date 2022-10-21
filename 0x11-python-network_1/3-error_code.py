@@ -8,11 +8,8 @@ import sys
 if __name__ == '__main__':
     url = sys.argv[1]
     req = Request(url)
-    desired_key = 'X-Request-Id'
     try:
         with urlopen(req) as response:
             print(response.read().decode('UTF-8'))
     except HTTPError as e:
-        print('Error Code: {}'.format(e.code))
-    except URLError as e:
         print('Error Code: {}'.format(e.code))
