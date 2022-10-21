@@ -12,4 +12,5 @@ if __name__ == '__main__':
             output = response.read()
             print(output.decode('utf-8'))
     except urllib.error.HTTPError as e:
-        print('Error code: {:s}'.format(str(e.code)))
+        if e.code >= 400:
+            print('Error code: {:s}'.format(str(e.code)))
