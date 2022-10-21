@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 '''A script that gets the value of a specific HTTP request header.'''
 from urllib.request import Request, urlopen
-from urllib.error import URLError, HTTPError
 import sys
 
 
@@ -12,5 +11,5 @@ if __name__ == '__main__':
         with urlopen(req) as response:
             output = response.read()
             print(output.decode('utf-8'))
-    except HTTPError as e:
+    except urllib.error.HTTPError as e:
         print('Error Code: {}'.format(e.code))
