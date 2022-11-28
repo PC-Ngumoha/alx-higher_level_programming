@@ -15,3 +15,5 @@
 ### 4-starwars_count.js
 
 ### 5-request_store.js
+
+### 6-completed_tasks.js
