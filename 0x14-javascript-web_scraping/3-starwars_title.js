@@ -10,5 +10,5 @@ if (!isNaN(id)) {
     if (error) console.log(error);
     const data = JSON.parse(body);
     console.log(data.title);
-  });
+  }); 
 }
