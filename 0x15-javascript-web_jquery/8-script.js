@@ -1,4 +1,4 @@
-// Fetches the name of a star wars character and displays it
+// Fetches the names of all star wars movies and displays as a list on the page
 $(function () {
   $.ajax({
     url: 'https://swapi-api.hbtn.io/api/films/?format=json',
