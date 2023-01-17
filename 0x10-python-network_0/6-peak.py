@@ -8,10 +8,16 @@ def find_peak(points):
     lim = len(points)
     if lim == 0:
         return
+    if lim == 1:
+        return points[0]
+    elif lim == 2:
+        return max(points)
+
     pos = lim // 2
-    if (pos == lim - 1 or points[pos] >= points[pos + 1]) and \
-            (pos == 0 or points[pos] >= points[pos - 1]):
-        return points[pos]
-    if pos != lim - 1 and points[pos + 1] > points[pos]:
+    peak = points[pos]
+    if peak > points[pos + 1] and peak > points[pos - 1]:
+        return peak
+    if peak < points[pos + 1]:
         return find_peak(points[pos + 1:])
-    return find_peak(points[:pos])
+    else:
+        return find_peak(points[:pos])
