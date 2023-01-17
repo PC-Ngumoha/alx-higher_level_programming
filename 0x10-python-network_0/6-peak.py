@@ -5,12 +5,14 @@
 
 def find_peak(points):
     '''Gets the peak'''
-    pos = 1
-    peak = None
-    while pos < len(points):
-        if points[pos - 1] <= points[pos] and points[pos + 1] <= points[pos]:
-            peak = points[pos]
-            break
-        else:
-            pos += 1
-    return peak
+    l = len(points)
+    if l == 0:
+        return
+    pos = l // 2
+    if (pos == l - 1 or points[pos] >= points[pos + 1]) and \
+            (pos == 0 or points[pos] >= points[pos - 1]):
+        return points[pos]
+    if pos != l-1 and points[pos + 1] > points[pos]:
+        return find_peak(points[pos + 1:])
+    return find_peak(points[:pos])
+    
