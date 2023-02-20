@@ -3,5 +3,5 @@
  * the user clicks on it.
  */
 $('div#red_header').on('click', function () {
-  $(this).css('color', '#FF0000');
+  $('header').css('color', '#FF0000');
 });
